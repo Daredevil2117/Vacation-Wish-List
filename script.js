@@ -40,7 +40,7 @@
         const img = document.createElement("img");
         img.setAttribute("alt", name);
 
-        const constantPhotoUrl = "/images/signpost.jpg"
+        const constantPhotoUrl = "../images/signpost.jpg"
 
         if (photoURL.length === 0) {
             img.setAttribute("src", constantPhotoUrl);
